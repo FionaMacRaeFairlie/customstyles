@@ -1,0 +1,11 @@
+/* The following block can be included in a custom scss */
+
+/* make the customizations */
+   $theme-colors: (
+  	'primary': tomato,
+  	'danger': teal
+);
+
+
+// Import all of Bootstrap’s CSS
+@import "bootstrap/scss/bootstrap";
