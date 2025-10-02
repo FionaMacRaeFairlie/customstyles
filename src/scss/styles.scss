@@ -2,10 +2,19 @@
 
 /* make the customizations */
    $theme-colors: (
-  	'primary': tomato,
+  	'primary': rgb(255, 99, 71),
   	'danger': teal
 );
-
+$accordion-padding-y:                     1rem;
+$accordion-padding-x:                     1.25rem;
+$accordion-color:                        '#ff6347';
+$accordion-bg:                            '#cccccc';
+$accordion-button-color:                  '#ff6347';
+$accordion-button-bg:                     '#cccccc';
+$accordion-button-active-bg:              '#ff6347';
+$accordion-button-active-color:           '#cccccc';
+$accordion-border-width:                  '4px';
+$accordion-border-color:                 '#ff6347';
 
 // Import all of Bootstrap’s CSS
 @import "bootstrap/scss/bootstrap";
